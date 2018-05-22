@@ -7,7 +7,7 @@ import com.self.pro.factory.Phone;
  */
 public class MethodTest {
     public static void main(String[] args) {
-        Phone apple=new AppleFactory();
-        System.out.println(apple.getName());
+        Factory factory=new AppleFactory();
+        System.out.println(factory.getPhone().getName());
     }
 }

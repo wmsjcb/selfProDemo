@@ -7,10 +7,11 @@ import com.self.pro.factory.Phone;
 /**
  * Created by chenbinbin1 on 2018/5/22.
  */
-public class HuaWeiFactory implements Phone {
+public class HuaWeiFactory implements Factory {
+
 
     @Override
-    public String getName() {
-        return new HuaWei().getName();
+    public Phone getPhone() {
+        return new HuaWei();
     }
 }

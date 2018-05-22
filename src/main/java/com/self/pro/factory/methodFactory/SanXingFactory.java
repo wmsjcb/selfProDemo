@@ -6,10 +6,11 @@ import com.self.pro.factory.SanXing;
 /**
  * Created by chenbinbin1 on 2018/5/22.
  */
-public class SanXingFactory implements Phone {
+public class SanXingFactory implements Factory {
+
 
     @Override
-    public String getName() {
-        return new SanXing().getName();
+    public Phone getPhone() {
+        return new SanXing();
     }
 }

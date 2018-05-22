@@ -6,10 +6,11 @@ import com.self.pro.factory.Phone;
 /**
  * Created by chenbinbin1 on 2018/5/22.
  */
-public class AppleFactory implements Phone {
+public class AppleFactory implements Factory {
+
 
     @Override
-    public String getName() {
-        return new Apple().getName();
+    public Phone getPhone() {
+        return new Apple();
     }
 }
