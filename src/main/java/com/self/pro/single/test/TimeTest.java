@@ -1,6 +1,6 @@
-package com.self.pro.proxy.test;
+package com.self.pro.single.test;
 
-import com.self.pro.proxy.lazy.LazyOne;
+import com.self.pro.single.lazy.LazyOne;
 
 /**
  * Created by chenbinbin1 on 2018/5/25.

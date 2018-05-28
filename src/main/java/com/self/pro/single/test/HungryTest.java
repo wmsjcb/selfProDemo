@@ -1,6 +1,6 @@
-package com.self.pro.proxy.test;
+package com.self.pro.single.test;
 
-import com.self.pro.proxy.hungry.Hungry;
+import com.self.pro.single.hungry.Hungry;
 
 import java.util.concurrent.CountDownLatch;
 

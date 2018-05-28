@@ -1,6 +1,6 @@
-package com.self.pro.proxy.test;
+package com.self.pro.single.test;
 
-import com.self.pro.proxy.register.RegisterMap;
+import com.self.pro.single.register.RegisterMap;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -9,7 +9,7 @@ import java.util.concurrent.CountDownLatch;
  */
 public class RegisterMapTest {
     public static void main(String[] args) {
-        CountDownLatch downLatch = new CountDownLatch(1000);
+        final CountDownLatch downLatch = new CountDownLatch(1000);
         for(int i=0;i<=downLatch.getCount();i++){
             new Thread(){
                 @Override

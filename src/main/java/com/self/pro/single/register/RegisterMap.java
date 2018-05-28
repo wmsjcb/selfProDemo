@@ -1,4 +1,4 @@
-package com.self.pro.proxy.register;
+package com.self.pro.single.register;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ public class RegisterMap {
     private static  Map<String,Object> registerMap = new HashMap<String,Object>();
     public static  RegisterMap getInstance(String name){
       if(name == null || name.equals("")){
-          name= RegisterMap.class.getName();
+              name= RegisterMap.class.getName();
       }
       if(registerMap.get(name)==null || registerMap.get(name).equals("")){
           try {

@@ -1,4 +1,4 @@
-package com.self.pro.proxy.hungry;
+package com.self.pro.single.hungry;
 
 /**
  * Created by chenbinbin1 on 2018/5/25.

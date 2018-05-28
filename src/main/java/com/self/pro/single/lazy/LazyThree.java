@@ -1,4 +1,4 @@
-package com.self.pro.proxy.lazy;
+package com.self.pro.single.lazy;
 
 /**
  * Created by Tom on 2018/3/7.
