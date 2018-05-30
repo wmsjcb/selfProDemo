@@ -10,6 +10,8 @@ public class Seriable implements Serializable {
     public  static Seriable getInstace(){
         return seriable;
     }
+
+    //JDK 会自动调用，防止读流破坏单例
     private  Object readResolve(){
         return  seriable;
     }
