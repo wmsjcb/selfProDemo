@@ -6,7 +6,7 @@ import java.util.List;
 public class Prototype implements Cloneable{
     private String name;
 
-    private List<String> ls = new ArrayList<>();
+    private List<String> ls = new ArrayList<String>();
 
     private  CloneTarget cloneTarget=null;
 

@@ -8,7 +8,12 @@ import com.self.pro.proxy.staticed.Person;
 public class CglibMeipoTest {
     public static void main(String[] args) {
 
-        Person person =(ZhangSan) new CglibMeiPo().getInstance(ZhangSan.class);
+        Person person = null;
+        try {
+            person = (ZhangSan) new CglibMeipo().getInstance(ZhangSan.class);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         person.findLove();
         System.out.println(">>>>>>>>>>>>>>>>>>>>>");
 
