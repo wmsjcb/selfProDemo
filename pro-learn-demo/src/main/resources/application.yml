@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+context:
+  initializer:
+    classes: com.self.pro.learn.init.MyApplicationContextInitializer
+json-map: #配置自定义请求地址Map
+   student:
+     name: "stuName"
+     age: "stuAge"
+     hireDate: "stuTime"
+   jsonData:
+     students: "jsonDataList"
+
+
+#student:
+#  name: userName
+#  age: UserAge
+sms-channels:
+  channels:
+    - cl,labs
+    - mobi
+    - next
+    - voice
+  channelMaps: {c0: "cl,labs",c1: "mobi",c2: "next",c3: "voice"}
